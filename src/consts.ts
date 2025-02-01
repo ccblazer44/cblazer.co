@@ -13,10 +13,10 @@ export type GlobalSite = {
 };
 
 export const GLOBAL: GlobalSite = {
-  title: "Astro Milidev",
-  description: "a minimalistic blog+portfolio Astro theme",
-  author: "John Doe",
-  authorPhotoSrc: "/johndoe.png",
+  title: "cblazer.co",
+  description: "Software Engineer + Data Architect",
+  author: "Chris Blazer",
+  authorPhotoSrc: "/cblazer_portrait.png",
   logo: {
     darkThemeSrc: "/logo/logo_dark.png",
     lightThemeSrc: "/logo/logo_light.png",
@@ -78,20 +78,20 @@ type ContactSite = ContactInfo[]
 export const CONTACT: ContactSite = [
   {
     type: "Email",
-    href: "mailto:email@example.com",
-    displayAs: "email@example.com",
+    href: "mailto:ccblazer44@gmail.com",
+    displayAs: "Email",
   },
-  {
-    type: "X",
-    href: "https://x.com/BillGates",
-    displayAs: "@BillGates on X",
-  },
+  // {
+  //   type: "X",
+  //   href: "https://x.com/BillGates",
+  //   displayAs: "@BillGates on X",
+  // },
   {
     type: "GitHub",
-    href: "https://github.com/dotnet",
+    href: "https://github.com/ccblazer44",
   },
   {
     type: "LinkedIn",
-    href: "https://www.linkedin.com/in/williamhgates/",
+    href: "https://www.linkedin.com/in/chrisblazer/",
   },
 ];
