@@ -1,9 +1,8 @@
 # cblazer.co
 
 
-> [!NOTE]
-> My personal site, built using Astro, TypeScript and TailwindCSS.
-> View [_here_](https://cblazer.co/).
+My personal site, built using Astro, TypeScript and TailwindCSS.
+View [_here_](https://cblazer.co/).
 
 
 ## Technologies Used
