@@ -7,7 +7,7 @@ import Layout from "@layouts/Layout.astro";
 import { getFilteredCollectionEntries, resolvePath } from "@lib/utils";
 
 export async function getStaticPaths() {
-  const { entries } = await getFilteredCollectionEntries("talks");
+  const { entries } = await getFilteredCollectionEntries("notes");
   return entries.map((post) => ({
     params: { slug: post.slug },
     props: post,
@@ -25,8 +25,8 @@ const { Content, headings } = await entry.render();
 >
   <Container>
     <div class="animate">
-      <BackToPrevious href={resolvePath("/talks", Astro.url.pathname)}
-        >All talks</BackToPrevious
+      <BackToPrevious href={resolvePath("/notes", Astro.url.pathname)}
+        >All notes</BackToPrevious
       >
     </div>
     <EntryHeader {...entry.data} body={entry.body} />

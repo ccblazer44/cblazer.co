@@ -5,9 +5,9 @@ import { getFilteredCollectionEntries, resolvePath, sortByLastUpdateDate } from 
 export async function GET(context) {
   const blog = (await getFilteredCollectionEntries("blog")).entries;
   const projects = (await getFilteredCollectionEntries("projects")).entries;
-  const talks = (await getFilteredCollectionEntries("talks")).entries;
+  const notes = (await getFilteredCollectionEntries("notes")).entries;
 
-  const items = [...blog, ...projects, ...talks].sort(
+  const items = [...blog, ...projects, ...notes].sort(
     sortByLastUpdateDate,
   );
 

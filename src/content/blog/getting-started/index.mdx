@@ -90,17 +90,17 @@ export const GLOBAL: GlobalSite = {
 export const HOME: HomeSite = {
   blogEntries: 5,
   projectEntries: 3,
-  talkEntries: 3,
+  notesEntries: 3,
 };
 ```
 
-- `blogEntries`, `projectEntries`, `talkEntries` - how many entries from the particular collections are displayed on the home site.
+- `blogEntries`, `projectEntries`, `noteEntries` - how many entries from the particular collections are displayed on the home site.
 
 ---
 
 ### Collections site
 
-By default, there are three collections in Astro Milidev: blog, projects, and talks.
+By default, there are three collections in Astro Milidev: blog, projects, and notes.
 
 ```ts
 export const BLOG: BlogSite = {
@@ -115,7 +115,7 @@ export const PROJECTS: CollectionSite = {
   pageSize: 10,
 };
 
-export const TALKS: CollectionSite = {
+export const NOTES: CollectionSite = {
   pageSize: 10,
 };
 ```
@@ -232,7 +232,7 @@ RSS is generated automatically. The feed is available at `/feed.xml` and configu
 ### Collections
 
 The collections are stored in the `src/content` directory and each collection has its own subdirectory. 
-At the beginning there are bunch of example entries (e.g. this very file) that you can safely delete, so `blog`, `projects` and `talks` directories are empty.
+At the beginning there are bunch of example entries (e.g. this very file) that you can safely delete, so `blog`, `projects` and `notes` directories are empty.
 
 More: [Collections guide](../collections-guide)
 

@@ -7,8 +7,8 @@ import { GLOBAL } from "@consts";
 const anyBlogPosts =
   (await getFilteredCollectionEntries("blog")).entries.length > 0;
 
-const anyTalks =
-  (await getFilteredCollectionEntries("talks")).entries.length > 0;
+const anyNotes =
+  (await getFilteredCollectionEntries("notes")).entries.length > 0;
 
 const anyProjects =
   (await getFilteredCollectionEntries("projects")).entries.length > 0;
@@ -45,11 +45,11 @@ const anyProjects =
           )
         }
         {
-          anyTalks && (
+          anyNotes && (
             <>
               <span>{`|`}</span>
-              <TextLink href={resolvePath("/talks", Astro.url.pathname)}>
-                talks
+              <TextLink href={resolvePath("/notes", Astro.url.pathname)}>
+                notes
               </TextLink>
             </>
           )
