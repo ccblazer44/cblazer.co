@@ -5,12 +5,11 @@ View [_here_](https://cblazer.co/).
 
 ## Table of Contents
 
-- [asnine.me](#asnineme)
-  - [Table of Contents](#table-of-contents)
-  - [Technologies Used](#technologies-used)
-  - [Features](#features)
-  - [Acknowledgements](#acknowledgements)
-  - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
 
 ## Technologies Used
