@@ -10,43 +10,38 @@ const { small } = Astro.props;
 ---
 
 <div style={small ? "font-size: 0.875rem" : ""}>
-  <p>
-    Astro Milidev is a minimalistic portfolio+blog <TextLink
-      href="https://astro.build">Astro</TextLink
-    > theme.
-  </p>
+  {small ? (
+    <p>
+      Full stack developer and software engineer from the SF Bay Area, specializing in data pipelines, automation, and business intelligence.  
+      When I'm not coding, I'm probably <TextLink href="https://www.alltrails.com/members/chris-blazer-3">hiking</TextLink>, 
+      snowboarding, or <TextLink href="https://www.peakbagger.com/climber/climber.aspx?cid=49012">chasing summits.</TextLink>
+    </p>
+  ) : (
+    <p>
+      I'm a professional full stack developer and software engineer from the SF Bay Area, specializing in data pipelines, ETL, business intelligence, and automation. 
+      I love making sense of complex data, optimizing workflows, and building scalable systems that reduce manual effort.
+    </p>
 
-  <p>
-    It originates from <TextLink href="https://github.com/trevortylerlee"
-      >Trevor Lee</TextLink
-    >'s <TextLink href="https://astro-micro.vercel.app/">Astro Micro</TextLink> theme,
-    which is based on <TextLink href="https://github.com/markhorn-dev"
-      >Mark Horn</TextLink
-    >'s <TextLink href="https://astro-nano-demo.vercel.app/"
-      >Astro Nano</TextLink
-    > (after "nano" and "micro" comes "mili", hence the first part of the name).
-  </p>
+    <p>
+      I love the entire development lifecycle—building things, breaking them to test their limits, optimizing them for performance, and everything in between.  
+      I'm weirdly passionate about naming conventions and standards like the 
+      <TextLink href="https://en.wikipedia.org/wiki/ISO_8601">ISO date format</TextLink>.
+    </p>
 
-  <p>
-    Astro Milidev enhances the above codebases with a variety of features. I
-    customized the original theme for my personal website, and also refactored
-    core parts of the code, making it more customizable and extensible.
-  </p>
+    <p>
+      Outside of coding, I'm an avid <TextLink href="https://www.alltrails.com/members/chris-blazer-3">hiker,</TextLink>
+      backpacker, snowboarder, and camper. More often than not, you'll find me <TextLink href="https://www.peakbagger.com/climber/climber.aspx?cid=49012">
+      chasing summits</TextLink>
+      —whether it's a weekend in the mountains or a multi-day backpacking trip. 
+      Like most nerds, I also love <TextLink href="https://www.goodreads.com/user/show/3338371-c-blaze">reading,</TextLink> mostly fantasy and sci-fi.
+    </p>
 
-  <p>
-    The changelog is available in this post: <TextLink
-      href={resolvePath(
-        "/blog/everything-new-in-astro-milidev",
-        Astro.url.pathname,
-      )}>Everything new in Astro Milidev</TextLink
-    >. Another post <TextLink
-      href={resolvePath("/blog/getting-started", Astro.url.pathname)}
-      >Getting started</TextLink
-    > explains the configuration process step by step. The code is MIT-licensed and
-    available on <TextLink href="https://github.com/bartoszlenar/astro-milidev"
-      >GitHub</TextLink
-    >.
-  </p>
+    <p>
+      This site is a work in progress—part portfolio, part playground for experimenting with new ideas. It's MIT-licensed and 
+      available on my <TextLink href="https://github.com/ccblazer44/cblazer.co">GitHub</TextLink>.
+    </p>
 
-  <p>Enjoy!</p>
+    <p>Welcome and enjoy!</p>
+
+  )}
 </div>

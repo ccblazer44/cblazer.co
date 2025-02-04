@@ -14,7 +14,7 @@ export type GlobalSite = {
 
 export const GLOBAL: GlobalSite = {
   title: "cblazer.co",
-  description: "Software Engineer + Data Architect",
+  description: "personal site of cblazer",
   author: "Chris Blazer",
   authorPhotoSrc: "/cblazer_portrait.png",
   logo: {
