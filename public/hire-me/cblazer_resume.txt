@@ -1,0 +1,84 @@
+Chris Blazer  
+Software Engineer | Cloud & Data Solutions Developer  
+Phone: 925.708.9451 | Email: chris@cblazer.co | LinkedIn: linkedin.com/in/chrisblazer | site: cblazer.co
+
+=================================================================  
+SUMMARY  
+=================================================================  
+Innovative and results-driven Software Engineer & Cloud Solutions Developer with a proven track record of rapid promotions, technical leadership, and high-impact project execution. A natural problem-solver with a strong ability to anticipate challenges and proactively develop solutions before they become bottlenecks.  
+
+Recognized as the go-to expert for high-priority initiatives, trusted to lead cloud migrations, automation projects, and modern infrastructure development. Adept at designing and implementing scalable, secure, and efficient technology solutions that drive business success.  
+
+Brings a rare blend of technical expertise and strategic vision, with deep proficiency in Python, SQL, Azure, Kubernetes, and microservices. Passionate about mentoring teams, modernizing legacy systems, and streamlining complex workflows to improve operational efficiency. Known for thriving under pressure, delivering results ahead of schedule, and consistently exceeding expectations.  
+
+=================================================================  
+TECHNICAL SKILLS  
+=================================================================  
+
+- Programming: Python, SQL, JavaScript, C#, HTML, CSS  
+- Cloud & DevOps: Azure, Docker, Kubernetes, GitHub, CI/CD Pipelines  
+- Data & Analytics: ETL, SSIS, SSRS, Data Modeling, Fabric Analytics  
+- Software & Tools: FTP Operations, Encryption, Microservices Architecture  
+- Project & Process Management: Technical Documentation, Process Automation, Cross-functional Leadership  
+
+=================================================================  
+PROFESSIONAL EXPERIENCE  
+=================================================================  
+
+WILSHIRE – Santa Monica, CA  
+Lead Application Developer (2017 – 2022)  
+
+Spearheaded critical technology initiatives at this global investment advisory firm, transforming outdated systems into scalable, automated, and secure solutions. Frequently selected to lead high-stakes projects due to technical expertise, problem-solving skills, and ability to execute under pressure. Drove firm-wide cloud adoption, built revenue-generating software, and proactively mitigated security risks. Promoted three times in five years (Analyst → Senior Analyst → Associate) due to outstanding leadership and execution.  
+
+- Led cloud migration from on-premises to Azure, designing and managing firm-wide databases with Azure Kubernetes Service (AKS) and Docker.  
+- Modernized legacy systems by implementing GitHub for version control and improving documentation standards.  
+- Developed a scalable automated portfolio builder using AngularJS and .NET, later commercialized and sold to financial institutions.  
+- Automated quarterly reporting, reducing processing time from 3 days to 4 hours with Python, SSRS, and microservices.  
+- Managed large-scale data ingestion pipelines using Python, SSIS, and SQL Server for encryption, transformation, and automation.  
+- Strengthened security posture by identifying and mitigating vulnerabilities, protecting critical assets.  
+
+-----------------------------------------------------------------  
+
+NORTHERN ARIZONA UNIVERSITY – Flagstaff, AZ  
+Systems Assistant (2013 – 2017)  
+
+Played a key role in managing and securing the university’s IT infrastructure, ensuring system stability for thousands of students and faculty. Trusted to train and mentor junior team members while leading IT process improvements that increased efficiency and security across campus-wide computer labs.  
+
+- Built, maintained, and deployed campus-wide computer lab infrastructure with Symantec Ghost for imaging.  
+- Created and managed group policies and network permissions using Active Directory.  
+- Developed testing and documentation processes to support students with diverse needs.  
+- Led documentation standardization, ensuring smooth team transitions.  
+- Assisted in hiring and training new team members, fostering technical excellence.  
+
+-----------------------------------------------------------------  
+
+VIWO, INC. – Los Angeles, CA  
+Google Apps Deployment Specialist (2012 – 2014)  
+
+Recognized as a top technical expert in deploying Google Apps (now Google Workspace) for SMB clients. Known for quick problem resolution, technical leadership, and training teammates to achieve certification.  
+
+- Led Google Apps deployments, managing data migration, setup, and user training.  
+- Resolved high-priority escalations, becoming the team’s go-to expert.  
+- First in the company to achieve Google Apps Certified Deployment Specialist certification.  
+- Mentored teammates, ensuring 100% certification success rate.  
+
+=================================================================  
+PROFESSIONAL DEVELOPMENT & TRAVEL (2023 – Present)  
+=================================================================  
+
+- Developed and deployed a full-stack portfolio website using Astro, TypeScript, and Tailwind CSS, with CI/CD automation.  
+- Expanded cloud expertise through AWS and Azure certification training.  
+- Explored modern web frameworks, including React and Next.js.  
+
+=================================================================  
+EDUCATION  
+=================================================================  
+
+Bachelor of Science, Computer Science  
+Northern Arizona University – Flagstaff, AZ  
+
+=================================================================  
+CERTIFICATIONS  
+=================================================================  
+
+- Microsoft Certified: Fabric Analytics Engineer Associate  
