@@ -1,16 +1,9 @@
 # cblazer.co
 
-My personal site, built using Astro, TypeScript and TailwindCSS.
-View [_here_](https://cblazer.co/).
+My personal site, built using Astro.
+[LINK](https://cblazer.co/).
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-
+![Home page screenshot](/public/screenshot.png)
 
 ## Technologies Used
 
@@ -24,14 +17,15 @@ View [_here_](https://cblazer.co/).
 ## Features
 
 - Privacy Focused: [no trackers of any kind](https://themarkup.org/blacklight?url=cblazer.co&location=us&device=mobile&force=false)
+- [Perfect 100](https://pagespeed.web.dev/analysis/https-cblazer-co/hat01z94cw?form_factor=mobile) on Google's PageSpeed Insights
 
 
 ## Acknowledgements
 
+First a foremost I would like to thank [Bartosz Lenar](https://github.com/bartoszlenar) for [astro-milidev](https://github.com/bartoszlenar/astro-milidev), which
+was the template I used to build this site.  And by extension [Trevor Lee](https://github.com/trevortylerlee) for making [astro-micro](https://github.com/trevortylerlee/astro-micro) and [Mark Horn](https://github.com/markhorn-dev) for making [astro-nano](https://github.com/markhorn-dev/astro-nano).
 
-https://github.com/bartoszlenar/astro-milidev
-
-asnine.me
+Thank you to [Dead Simple Sites](https://deadsimplesites.com/) for aggregating so many elegant personal sites that served as my inspriation, with a special thanks to [Ashraf Said](https://github.com/asninee) because I found his [site](https://asnine.me/) in particular to be a source of inspriation.
 
 
 ## License
