@@ -1,0 +1,118 @@
+---
+title: "Building My Personal Site: cblazer.co"
+date: "2024-02-04"
+description: "A deep dive into the technologies, features, and challenges of building my personal website using Astro."
+tags: ["astro", "tailwind", "typescript", "web development", "personal site"]
+---
+
+## **Building My Personal Site: cblazer.co**
+
+Every developer eventually reaches the point where they want a personal space on the web—somewhere to showcase their projects, write about things they find interesting, and just have a digital home that reflects who they are. For me, **cblazer.co** is exactly that.
+
+This post is a **technical breakdown** of how I built this site, the technologies I used, and the challenges I faced along the way.
+
+---
+
+## **📌 Tech Stack & Choices**
+### **Astro: The Foundation**
+I chose [Astro](https://astro.build) as the core framework for this site. Given my background in data engineering and automation, I wanted something lightweight and efficient—without unnecessary JavaScript bloat. Astro fit perfectly because:
+- **Static-first**: Pages are mostly pre-rendered HTML, ensuring fast performance.
+- **Component-driven**: Allows reuse of UI elements while keeping things simple.
+- **Island architecture**: JavaScript is only used where needed, optimizing performance.
+
+Astro’s ability to integrate with **React, Svelte, Vue, or just plain HTML** made it an ideal choice for a **content-heavy site that doesn’t need full SPA behavior**.
+
+### **TailwindCSS: Styling Simplified**
+Styling is handled using [TailwindCSS](https://tailwindcss.com), which I love for its **utility-first approach**. Instead of managing complex CSS files, I can style components inline:
+```html
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  Click Me
+</button>
+```
+This keeps styles **consistent, scalable, and easy to manage** across the site.
+
+### **TypeScript: Strict Typing for Maintainability**
+I used [TypeScript](https://www.typescriptlang.org) to ensure type safety across the project. Even though Astro doesn’t require TypeScript, adding static types helps prevent runtime errors and improves editor autocompletion.
+
+```ts
+interface BlogPost {
+  title: string;
+  date: string;
+  description: string;
+  tags: string[];
+}
+```
+This approach ensures that blog posts and other dynamic content are always properly structured.
+
+### **GitHub Pages: Deployment with GitHub Actions**
+The site is deployed via [GitHub Pages](https://pages.github.com/), using **GitHub Actions** for continuous deployment. Initially, I set everything up on my own **DigitalOcean droplet** behind **NGINX**, as I’m a huge fan of self-hosting. However, the **convenience, reliability, and zero-maintenance nature** of GitHub Pages was too good to pass up.
+
+The deployment workflow runs every time I push to `main`, automatically building and deploying the site. Here’s a simplified version of my **GitHub Actions workflow**:
+
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Install, Build, and Upload
+        uses: withastro/action@v2
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+With this setup, my site is automatically updated whenever I push a new change, making maintenance effortless.
+
+---
+
+## **🚀 Key Features**
+### **1️⃣ Privacy-Focused: No Trackers**
+Many personal sites use analytics tools like Google Analytics, but I opted for **zero tracking**. Tools like [Blacklight](https://themarkup.org/blacklight?url=cblazer.co&location=us&device=mobile&force=false) confirm that **no user data is collected or stored**—keeping this site lightweight and privacy-friendly.
+
+### **2️⃣ Blazing Fast Performance**
+Achieving a [Perfect 100 on Google PageSpeed](https://pagespeed.web.dev/analysis/https-cblazer-co/hat01z94cw?form_factor=mobile) was a goal from the start. Astro’s static rendering, minimal JavaScript, and Tailwind’s optimized CSS all contribute to this.
+
+Some key optimizations include:
+- **Lazy-loading images** to reduce initial page load size.
+- **Optimized fonts** via system defaults to avoid render-blocking.
+- **No unnecessary client-side JavaScript**—only used where interactivity is needed.
+
+### **3️⃣ Built-in RSS Feed**
+The site generates an **RSS feed** automatically so readers can subscribe to new posts. This is implemented using Astro’s [RSS integration](https://docs.astro.build/en/guides/rss/).
+
+### **4️⃣ Light & Dark Mode**
+User experience is important, so I implemented **theme toggling** with Tailwind’s dark mode support.
+
+### **5️⃣ Commenting System with Giscus**
+Instead of using Disqus (which tracks users), I integrated [Giscus](https://giscus.app/) for **GitHub-based comments**. This allows users to comment using their GitHub accounts, keeping the site free from third-party tracking.
+
+---
+
+## **📅 What’s Next?**
+This site is just getting started. Upcoming plans include:
+- **More blog posts** covering tech, data, and side projects.
+- **Project case studies**—breaking down things I’ve built.
+- **Potential integrations** (micro-interactions, experiments, etc.).
+
+If you made it this far—thanks for reading! If you’re building your own site or have thoughts on this, feel free to reach out. 🚀
