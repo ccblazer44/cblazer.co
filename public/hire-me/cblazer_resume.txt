@@ -17,7 +17,7 @@ RELEVANT SKILLS
 
 Programming & Development:    Python, SQL, JavaScript, TypeScript, C#, Angular, HTML, CSS  
 Cloud & DevOps:               Azure, Docker, Kubernetes, GitHub, CI/CD, Infrastructure as Code  
-Data Engineering & Analytics: ETL, SSIS, SSRS, Data Modeling, Microsoft Fabric  
+Data Engineering & Analytics: ETL, SSIS, SSRS, Data Modeling, Spark, Microsoft Fabric  
 Security & Systems:           Encryption, Active Directory, Group Policy, FTP Operations  
 Process & Architecture:       Microservices, Process Automation, Technical Documentation, Cross-functional Leadership  
 
