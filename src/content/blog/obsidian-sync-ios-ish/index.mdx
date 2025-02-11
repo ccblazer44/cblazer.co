@@ -126,8 +126,16 @@ git pull
 ```
 For quicker access, create aliases:
 ```sh
-alias pull=./pull.sh
-alias push=./push.sh
+vi .profile
+```
+.profile:
+```sh
+alias pull=~/pull.sh
+alias push=~/push.sh
+```
+Reload the shell:
+```sh
+exit
 ```
 Now, sync your vault using just `pull` and `push`!
 
