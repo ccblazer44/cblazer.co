@@ -1,0 +1,143 @@
+---
+title: "Configuring Obsidian Git Sync on iOS with iSH"
+date: "2024-02-04"
+description: "A guide to syncing an Obsidian vault on iOS using iSH and Git for free."
+tags: ["obsidian", "git", "ios"]
+---
+
+I love Obsidian for my personal notes. I may go deeper into why and my personal setup in another post. However, the cost for Obsidian Sync is steep, and it comes with some limitations (like only supporting one vault). So, I set up my own sync using **iSH**, and you can too.
+
+This guide assumes you already have a **GitHub repository** with your Obsidian vault in it. If you don’t, first set one up. You can also check out the [Obsidian Git plugin](https://publish.obsidian.md/git-doc/Start+here) for syncing between computers.
+
+Syncing to iOS is trickier. Many guides recommend using **Working Copy**, but it requires a paid upgrade ([Megan Sullivan’s guide](https://meganesulli.com/blog/sync-obsidian-vault-iphone-ipad/) explains how). Using iSH takes a bit more tech know-how, but it's **completely free**.
+
+---
+
+## Step 0: Install iSH
+Download [iSH Shell](https://apps.apple.com/us/app/ish-shell/id1436902243) from the App Store.
+
+---
+
+## Step 1: Install and Configure Git for GitHub
+
+Update Alpine:
+```sh
+apk update
+```
+Install Git:
+```sh
+apk add git
+```
+Install OpenSSH:
+```sh
+apk add openssh
+```
+Generate a new SSH key:
+```sh
+ssh-keygen -t ed25519 -C "MY@EMAIL.COM"
+```
+Start the SSH agent:
+```sh
+eval "$(ssh-agent -s)"
+```
+
+### Configure SSH for GitHub
+Edit SSH config:
+```sh
+vi ~/.ssh/config
+```
+config:
+```sh
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+Save and exit (`Esc`, then `:wq`).
+
+Add your SSH private key to the SSH agent:
+```sh
+ssh-add ~/.ssh/id_ed25519
+```
+Copy your public key and add it to [GitHub SSH settings](https://github.com/settings/ssh/new):
+```sh
+cat ~/.ssh/id_ed25519.pub
+```
+Set your Git config:
+```sh
+git config --global user.email "YOUR@EMAIL.COM"
+git config --global user.name "YOUR NAME"
+```
+If you run into issues, check [this guide](https://github.com/januszoles/ish/blob/main/README.md#iphone6-github).
+
+---
+
+## Step 2: Setting Up Your Repo in Obsidian
+Create an Obsidian directory:
+```sh
+mkdir obsidian
+```
+Move into it:
+```sh
+cd obsidian/
+```
+Mount the iOS file provider:
+```sh
+mount -t iOS . obsidian
+```
+This opens the iOS file selector. Select the **Obsidian** folder.
+
+💡 **Tip**: If Obsidian doesn’t recognize the vault after cloning, create a temporary vault in the app first, then delete it once your synced vault is working.
+
+Now, clone your repo:
+```sh
+git clone git@github.com:username/repo.git
+```
+Your vault should now be visible in Obsidian!
+
+---
+
+## Step 3: Pushing and Pulling Changes
+You can manually sync with Git commands, but I automated it with shell scripts.
+
+Create push/pull scripts:
+```sh
+touch push.sh pull.sh
+chmod +x push.sh pull.sh
+```
+Edit push.sh:
+```sh
+vi push.sh
+```
+push.sh:
+```sh
+cd ~/obsidian
+git add --all
+git commit -m "Commit from mobile"
+git push
+```
+Edit pull.sh:
+```sh
+vi pull.sh
+```
+pull.sh:
+```sh
+cd ~/obsidian
+git pull
+```
+For quicker access, create aliases:
+```sh
+alias pull=./pull.sh
+alias push=./push.sh
+```
+Now, sync your vault using just `pull` and `push`!
+
+Test it:
+1. Edit your vault in Obsidian, then run `push` in iSH.
+2. Edit your vault on another device, then run `pull` in iSH to sync.
+
+---
+
+## Conclusion
+Syncing via iSH requires manually running `push` and `pull`, but for my use case—mainly accessing my **collection of recipes** on the go—it works perfectly.
+
+Credit to [ForceBru on the Obsidian forums](https://forum.obsidian.md/t/mobile-sync-with-git-on-ios-for-free-using-ish/20861) for inspiring this method!
