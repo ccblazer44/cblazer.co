@@ -69,11 +69,11 @@ Recognized as a top technical expert in deploying Google Apps (now Google Worksp
 PROFESSIONAL DEVELOPMENT & TECHNICAL GROWTH – SAN FRANCISCO, CA (2023 – Present)  
 =================================================================  
 
-- Developed and deployed a full-stack portfolio website using Astro, TypeScript, and Tailwind CSS, with CI/CD automation.  
-- Expanded cloud expertise through AWS and Azure certification training.  
-- Explored modern web frameworks, including React and Next.js.  
-- Pursuing continued learning in AI and machine learning.  
-- Honing networking and security skills in a home lab, with an interest in self-hosting.  
+- Developed and deployed a full-stack portfolio website using Astro, TypeScript, and Tailwind CSS, integrating CI/CD automation for streamlined deployments.
+- Mastered AWS and Azure core services, completing certification training focused on cloud architecture and infrastructure management.
+- Built advanced proficiency in modern web frameworks, including React and Next.js, by developing interactive UI components and optimizing performance.
+- Applied AI/ML concepts by experimenting with model deployment, fine-tuning LLMs, and integrating AI APIs.
+- Strengthened networking and security expertise through hands-on self-hosting projects, implementing containerization, reverse proxies, and access controls in a home lab environment.
 
 =================================================================  
 EDUCATION  
