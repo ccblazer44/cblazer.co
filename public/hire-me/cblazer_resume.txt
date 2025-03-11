@@ -1,89 +1,83 @@
 CHRIS BLAZER  
-Software Engineer | Cloud & Data Solutions Developer  
-Phone: 925.708.9451  |  Email: cblazer@cblazer.co  |  LinkedIn: linkedin.com/in/chrisblazer  |  Site: cblazer.co  
+Data Engineer | SQL, Python, Cloud & ETL Solutions  
+Phone: 925.708.9451     Email: cblazer@cblazer.co    LinkedIn: linkedin.com/in/chrisblazer    Site: cblazer.co  
+
+Results-driven Data Engineer & Analyst with a strong background in SQL, Python, ETL pipelines, and cloud-based data solutions. Proven ability to design, optimize, and automate data workflows, analytics pipelines, and reporting systems that enhance business decision-making and operational efficiency.  
+Expert in data ingestion, transformation, and modeling, with hands-on experience managing large-scale SQL databases, cloud infrastructure (Azure, AWS), and BI reporting tools. Adept at solving complex data challenges, improving data accessibility, and building scalable solutions for analytics, automation, and machine learning applications.  
+A natural problem-solver who thrives in fast-paced, data-driven environments, consistently delivering high-impact solutions ahead of schedule. Passionate about data integrity, performance optimization, and driving strategic insights through well-architected data systems.  
 
 =================================================================  
-SUMMARY  
+Relevant Skills  
 =================================================================  
-Innovative and results-driven Software Engineer & Cloud Solutions Developer with a proven track record of rapid promotions, technical leadership, and high-impact project execution. A natural problem-solver with a strong ability to anticipate challenges and proactively develop solutions before they become bottlenecks.  
-
-Recognized as the go-to expert for high-priority initiatives, trusted to lead cloud migrations, automation projects, and modern infrastructure development. Adept at designing and implementing scalable, secure, and efficient technology solutions that drive business success.  
-
-Brings a rare blend of technical expertise and strategic vision, with deep proficiency in Python, SQL, ETL, data analysis, automation, and cloud technology. Passionate about mentoring teams, modernizing legacy systems, and streamlining complex workflows to improve operational efficiency. Known for thriving under pressure, delivering results ahead of schedule, and consistently exceeding expectations.  
-
-=================================================================  
-RELEVANT SKILLS  
-=================================================================  
-
-Programming & Development:    Python, SQL, JavaScript, TypeScript, C#, Angular, HTML, CSS  
-Cloud & DevOps:               Azure, Docker, Kubernetes, GitHub, CI/CD, Infrastructure as Code  
-Data Engineering & Analytics: ETL, SSIS, SSRS, Data Modeling, Spark, Microsoft Fabric  
-Security & Systems:           Encryption, Active Directory, Group Policy, FTP Operations  
-Process & Architecture:       Microservices, Process Automation, Technical Documentation, Cross-functional Leadership  
+Data Engineering & Analytics: Python, SQL (T-SQL, PostgreSQL, SQL Server), ETL (SSIS, Airflow, dbt), Data Modeling, BI Reporting (Tableau, Power BI, SSRS), Microsoft Fabric, Snowflake  
+Cloud & DevOps: Azure, AWS (Lambda, S3, RDS, Redshift), Docker, Kubernetes, Terraform, GitHub Actions  
+Programming & Automation: Python (Pandas, NumPy, SQLAlchemy), API Development, Shell Scripting (Bash, PowerShell)  
+Process & Architecture: Data Governance, Workflow Automation, Technical Documentation, Security & Access Control (Active Directory, Encryption)  
 
 =================================================================  
-PROFESSIONAL EXPERIENCE  
+Professional Experience  
 =================================================================  
 
-WILSHIRE – Santa Monica, CA  
-Application Developer (2017 – 2023)  
+Independent Consultant, Oakland, CA  2023 – Present  
+Data Engineering & Automation  
 
-Spearheaded critical technology initiatives at this global investment advisory firm, transforming outdated systems into scalable, automated, and secure solutions. Frequently selected to lead high-stakes projects due to technical expertise, problem-solving skills, and ability to execute under pressure. Promoted three times in five years (Analyst → Senior Analyst → Associate) due to outstanding leadership and execution.  
+Help small businesses structure, analyze, and automate their data processes, turning raw information into actionable insights. This includes cleaning and transforming data, optimizing reporting workflows, and automating repetitive tasks to improve efficiency and decision-making.  
 
-- Managed large-scale data ingestion pipelines using FTP, Python, SSIS, and SQL Server for encryption, transformation, loading, and automation.  
-- Developed a scalable automated portfolio builder using AngularJS and .NET, later commercialized and sold to financial institutions.  
-- Conducted quarterly fiduciary reporting run, reports were built out using SSRS, leveraged SQL stored procedures, and were generated by the thousands. Reduced generation time from days to hours using microservices. Automated delivery through FTP and email (SendGrid).  
-- Managed and optimized large production SQL databases and complex sets of stored procedures.  
-- Led cloud migration from on-premises to Azure, designing and managing firm-wide databases and applications with Azure Kubernetes Service (AKS) and Docker.  
-- Modernized legacy systems by implementing GitHub for version control and improving documentation standards.  
-- Strengthened security posture by identifying and mitigating vulnerabilities, protecting critical assets.  
+E-commerce Order Processing Automation  
+- Automated order processing for an online retailer, integrating Shopify data with a PostgreSQL database via Python ETL.  
+- Built Looker dashboards for real-time inventory tracking, reducing manual workload by 75%.  
 
------------------------------------------------------------------  
+Small Business Financial Reporting Automation  
+- Automated financial reporting for small businesses by building Python ETL pipelines to process bank exports into SQL.  
+- Designed Looker dashboards for cash flow and revenue tracking, saving 10+ hours of manual work monthly.  
 
-NORTHERN ARIZONA UNIVERSITY – Flagstaff, AZ  
-System Administrator (2006-2012, 2013 – 2017)  
 
-Played a key role in managing and securing the university’s IT infrastructure, ensuring system stability for thousands of students and faculty. Trusted to train and mentor junior team members while leading IT process improvements that increased efficiency and security across campus-wide computer labs.  
+WILSHIRE, Santa Monica, CA   2017 – 2023  
+Application Developer  
 
-- Built, maintained, and deployed campus-wide computer lab infrastructure with Symantec Ghost for imaging.  
-- Created and managed network permissions using Group Policy, Active Directory, and Registry profiles.  
-- Developed testing and documentation processes to support students with diverse needs.  
-- Led documentation standardization, ensuring smooth team transitions.  
-- Extensive troubleshooting of a myriad of software and hardware issues.  
-- Assisted in hiring and training new team members, fostering technical excellence.  
+Designed, built, and automated data workflows and analytics solutions to support investment management operations. Led data ingestion, transformation, and reporting processes, optimizing performance and reducing manual effort across the firm.  
 
------------------------------------------------------------------  
+- ETL & Data Pipelines: Designed and maintained data ingestion pipelines handling financial data from multiple external sources. Used Python, SSIS, and SQL Server to automate data extraction, decryption, transformation, and loading into structured databases.  
+- Automated Fiduciary Reporting: Developed SQL-driven SSRS reports used for quarterly fiduciary reporting. Optimized stored procedures and leveraged microservices—reducing report generation time from days to hours. Automated report distribution with encryption using FTP and email integration (SendGrid).  
+- Portfolio Data Automation & Visualization: Built a .NET & AngularJS (AG Grid) automated portfolio builder, enabling real-time investment data analysis and interactive reporting.  
+- Database Optimization & Performance Tuning: Managed large-scale SQL Server databases, optimizing query performance and indexing to support reporting and analytics workflows.  
+- Ad Hoc Reporting & Process Automation: Delivered ad hoc SQL data extractions and automated Excel workflows, saving the Client Service team hours of manual effort.  
+- Cloud Migration & Infrastructure Modernization: Led transition from on-prem to Azure, deploying containerized applications with Docker and Kubernetes to streamline data operations.  
+- Technical Leadership & Version Control Overhaul: Spearheaded the firm's migration from TFS to GitHub, successfully establishing Git workflows and best practices for version control, improving collaboration and code quality across teams.  
+- Knowledge Management & Documentation: Built and maintained a team-wide documentation wiki, transforming personal notes into an organized knowledge base still used by the team today. Standardized documentation processes, reducing onboarding time and increasing knowledge sharing.  
+- Data Security & Compliance: Implemented data encryption standards and ensured secure handling of financial data, meeting compliance requirements for audits.  
 
-VIWO, INC. – Los Angeles, CA  
-Google Apps Deployment Specialist (2012 – 2014)  
 
-Recognized as a top technical expert in deploying Google Apps (now Google Workspace) for SMB clients. Known for quick problem resolution, technical leadership, and training teammates to achieve certification.  
+NORTHERN ARIZONA UNIVERSITY, Flagstaff, AZ     2013 – 2017  
+System Administrator  
 
-- Led Google Apps deployments, managing data migration, setup, and user training.  
-- Resolved high-priority escalations, becoming the team’s go-to expert.  
-- Migrated SMBs from Salesforce to Zoho CRM.  
-- First in the company to achieve Google Apps Certified Deployment Specialist certification.  
-- Mentored teammates, ensuring 100% certification success rate.  
+Managed campus-wide IT infrastructure, ensuring reliable systems for thousands of students and faculty. Spearheaded automation efforts to improve system deployments and access control while enhancing security policies and documentation. Recognized as a key problem-solver, providing technical leadership in troubleshooting and IT process improvement.  
+
+- Automated System Management: Designed and maintained automated deployment processes for campus-wide computer labs using Symantec Ghost.  
+- Access Control & Security: Managed Active Directory & Group Policy to enforce user permissions and security policies across thousands of endpoints.  
+- Technical Documentation & Training: Created standardized documentation and trained new team members, ensuring continuity and efficiency in IT operations.  
+- Troubleshooting & Support: Diagnosed and resolved complex software & hardware issues, supporting students, faculty, and staff in a high-volume IT environment.  
+
+
+VIWO, INC., Los Angeles, CA  2012 – 2014  
+Google Apps Deployment Specialist  
+
+Led Google Apps (now Google Workspace) deployments for small and mid-sized businesses, managing migrations, troubleshooting issues, and training end users. Acted as the technical lead for high-priority escalations, ensuring smooth transitions to cloud-based collaboration tools. Recognized for technical expertise and leadership in streamlining business operations through cloud adoption.  
+
+- Cloud Migration Leadership: Spearheaded Google Apps deployments, managing data migrations, domain configurations, and user training for dozens of SMB clients.  
+- Salesforce to Zoho CRM Migration: Assisted businesses in migrating from Salesforce to Zoho CRM, ensuring smooth data transitions and minimal disruption to operations.  
+- Escalation & Troubleshooting Expert: Became the go-to resource for resolving complex technical issues, handling high-priority client escalations.  
+- Technical Certification & Mentorship: First in the company to achieve Google Apps Certified Deployment Specialist certification; mentored teammates, ensuring a 100% certification success rate.  
 
 =================================================================  
-PROFESSIONAL DEVELOPMENT & TECHNICAL GROWTH – SAN FRANCISCO, CA (2023 – Present)  
-=================================================================  
-
-- Developed and deployed a full-stack portfolio website using Astro, TypeScript, and Tailwind CSS, integrating CI/CD automation for streamlined deployments.
-- Mastered AWS and Azure core services, completing certification training focused on cloud architecture and infrastructure management.
-- Built advanced proficiency in modern web frameworks, including React and Next.js, by developing interactive UI components and optimizing performance.
-- Applied AI/ML concepts by experimenting with model deployment, fine-tuning LLMs, and integrating AI APIs.
-- Strengthened networking and security expertise through hands-on self-hosting projects, implementing containerization, reverse proxies, and access controls in a home lab environment.
-
-=================================================================  
-EDUCATION  
+Education  
 =================================================================  
 
 Bachelor of Science, Computer Science  
-Northern Arizona University – Flagstaff, AZ  
+Northern Arizona University, Flagstaff, AZ  
 
 =================================================================  
-CERTIFICATIONS  
+Certifications  
 =================================================================  
 
 - Microsoft Certified: Fabric Analytics Engineer Associate  
